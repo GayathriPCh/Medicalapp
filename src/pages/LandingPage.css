@@ -1,0 +1,84 @@
+/* General container styling */
+html, body {
+    height: 100%; /* Ensure the body takes up the full height */
+    margin: 0; /* Remove default margin */
+}
+
+.landing-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background: #e3f2fd; /* Light blue background for a calming effect */
+    padding: 20px;
+    font-family: 'Arial', sans-serif; /* Clean and professional font */
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+    margin-bottom: 40px; /* Space below header */
+}
+
+/* Title styling */
+.header h1 {
+    font-size: 3.5rem; /* Larger font size for emphasis */
+    color: #0d47a1; /* Darker blue for a professional look */
+    margin: 0; /* Remove default margin */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Subtitle styling */
+.header p {
+    font-size: 1.5rem; /* Slightly larger font size for visibility */
+    color: #555; /* Dark gray for subtitle */
+    margin-top: 10px; /* Space above subtitle */
+}
+
+/* Auth buttons container styling */
+.auth-buttons {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+}
+
+/* Button styling */
+.auth-buttons .btn {
+    padding: 15px 30px; /* Padding for buttons */
+    font-size: 1.2rem; /* Font size for buttons */
+    border: none;
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Primary button styling */
+.auth-buttons .btn {
+    background: #2196f3; /* Solid blue for primary button */
+    color: #fff; /* White text */
+}
+
+/* Secondary button styling */
+.auth-buttons .btn.btn-secondary {
+    background: #90caf9; /* Lighter blue for secondary button */
+    color: #0d47a1; /* Darker blue text */
+}
+
+/* Button hover effects */
+.auth-buttons .btn:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Button disabled state */
+.auth-buttons .btn:disabled {
+    background: #aaa; /* Gray background for disabled state */
+    cursor: not-allowed; /* Change cursor to indicate disabled */
+}
+
+/* Additional styling for icons or images */
+.icon {
+    width: 50px; /* Set a standard size for icons */
+    margin-bottom: 20px; /* Space below icons */
+} 

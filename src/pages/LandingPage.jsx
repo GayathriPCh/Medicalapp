@@ -1,3 +1,5 @@
+// src/pages/LandingPage.jsx
+import "./LandingPage.css"; // Import the CSS file for styling
 
 const LandingPage = () => {
   return (
