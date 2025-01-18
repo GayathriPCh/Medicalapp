@@ -1,17 +1,15 @@
 /* General container styling */
 .signup-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 500px; /* Increased max-width for more space */
-    margin: 40px auto; /* Increased margin for better spacing */
-    padding: 40px; /* Increased padding for a more spacious feel */
-    border-radius: 12px;
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
-    background: linear-gradient(145deg, #e0f7fa, #b2ebf2); /* Light blue gradient */
-    background-color: #fff;
-    background: #f0f4f8; /* Soft light background for a clean look */
-    border: 1px solid #cfd8dc; /* Light gray border for definition */
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px; /* Increased max-width for more space */
+  margin: 40px auto; /* Increased margin for better spacing */
+  padding: 40px; /* Increased padding for a more spacious feel */
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+  background: linear-gradient(145deg, #ffffff, #f9f9f9);
+  background-color: #fff;
   }
   
   /* Success container styling */
