@@ -8,15 +8,16 @@
     padding: 40px; /* Increased padding for a more spacious feel */
     border-radius: 12px;
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
-    background: linear-gradient(145deg, #ffffff, #f9f9f9);
+    background: #f0f4f8; /* Soft light background for a clean look */
     background-color: #fff;
+    border: 1px solid #cfd8dc; /* Light gray border for definition */
   }
   
   /* Title styling */
   .signin-container h1 {
     margin-bottom: 30px; /* Increased margin for better spacing */
     font-size: 2.5rem; /* Larger font size for emphasis */
-    color: #333;
+    color: #0d47a1; /* Darker blue for a more professional look */
     text-align: center; /* Center-align title */
   }
   
@@ -25,8 +26,8 @@
     width: 100%;
     padding: 14px; /* Increased padding for a more comfortable input */
     margin: 15px 0; /* Increased margin for spacing between inputs */
-    border: 1px solid #ddd; /* Slightly lighter border */
-    border-radius: 10px; /* Slightly more rounded corners */
+    border: 1px solid #90caf9; /* Softer blue border */
+    border-radius: 5px; /* Slightly less rounded for a more professional look */
     font-size: 16px;
     background: #f5f5f5; /* Slightly lighter background */
     transition: background 0.3s ease, border-color 0.3s ease;
@@ -40,7 +41,7 @@
   
   /* Error message styling */
   .signin-container .error-message {
-    color: red;
+    color: #d32f2f; /* Keep red for error messages */
     margin-bottom: 15px; /* Increased margin for spacing */
     font-size: 1rem; /* Slightly larger font size for visibility */
     text-align: center; /* Center-align error message */
@@ -52,12 +53,12 @@
     padding: 16px; /* Increased padding for a more prominent button */
     border: none;
     border-radius: 10px; /* Consistent rounded corners */
-    background: linear-gradient(145deg, #5ff4ff, #8b53fb);
+    background: #2196f3; /* Solid blue for a more professional button */
     color: #fff;
     font-size: 18px; /* Larger font size for better readability */
     cursor: pointer;
     transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow for button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   }
   
   .signin-container button:hover {
@@ -78,7 +79,7 @@
   }
   
   .signin-container .signup-link a {
-    color: #007bff;
+    color: #0d47a1; /* Darker blue for links */
     text-decoration: none;
   }
   
