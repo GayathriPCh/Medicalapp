@@ -5,6 +5,7 @@ import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 import LandingPage from './pages/LandingPage';
 import { auth } from './firebase';
+import About from './pages/About';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -31,7 +32,9 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         {/* Protecting the routes based on user's authentication state */}
         <Route path="/home" element={user ? <Home /> : <Navigate to="/" />} />
-       
+                <Route path="/about" element={user ? <About /> : <Navigate to="/" />} />
+                
+
         {/* Add more routes here */}
       </Routes>
     </Router>
