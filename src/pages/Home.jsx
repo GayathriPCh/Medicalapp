@@ -1,16 +1,12 @@
 import React from 'react';
-import './Home.css'; // Import the CSS file for styling
+import Navbar from '../components/Navbar'; // Adjust the import path as needed
+import './Home.css';
 
 const Home = () => {
   return (
     <div>
       <header className="home-header">
-        <nav className="nav-links">
-          <a href="/home" className="nav-button">Home</a>
-          <a href="/about" className="nav-button">About Us</a>
-          <a href="/features" className="nav-button">Features</a>
-          <a href="/tools" className="nav-button">Tools</a>
-        </nav>
+        <Navbar />
       </header>
       <div className="content">
         <h1>Welcome to Home Page</h1>
